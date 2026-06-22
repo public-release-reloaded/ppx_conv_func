@@ -2,5 +2,6 @@
  (name ppx_conv_func)
  (public_name ppx_conv_func)
  (libraries base ppxlib ppxlib_jane)
+ (flags (:standard -w -67))
  (preprocess
   (pps ppxlib.metaquot)))
